@@ -2,7 +2,7 @@ function Footer(){
     return(
         <div className="Footer">
             <ul className="Footer-text">
-                <li> Contact us </li>
+                <li > Contact us </li>
             </ul>
         </div>
     );

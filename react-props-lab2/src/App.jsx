@@ -7,10 +7,9 @@ function App() {
   return (
     <>
     <Nav />
-    <Card />
-    <Card />
-    <Card />
-
+    <Card title="New Apple Watch" para="SAR 1.069" />
+    <Card title="New Apple iphone 15" para="SAR 5.469" />
+    <Card title="New Apple Airpods" para="SAR 769" />
     <Footer />
     </>
   )

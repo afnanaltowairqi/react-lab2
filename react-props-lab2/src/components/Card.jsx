@@ -3,9 +3,9 @@ function Card(props){
     return(
         <div className="card-container">
             <div className="card">
-                <img className="img1" src={Watch}></img>
-                <h4>New Apple Watch</h4>
-                <p> SAR 1.069</p>            
+                <img className="img1" src={props.Watch}></img>
+                <h4>{props.title}</h4>
+                <p>{props.para}</p>
             </div>
         </div>
         
